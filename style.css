@@ -1,3 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family:  sans-serif;
+} /*Resetando a pagina */
 header{
     background-color: rgba(34, 170, 63, 0.699);
     height: 79px;
@@ -6,9 +13,11 @@ h1 {
   color: black;
   text-align: center;
   font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 nav{
    text-align: center;
+   
   }
 .menu {
   margin: 0;
@@ -43,7 +52,7 @@ nav{
   }
   aside{
     background-color: rgba(57, 148, 57, 0.699);
-    height: 400px;
+    height: 500px;
     width: 15%;
     float:left;
   }
@@ -51,5 +60,16 @@ nav{
     background-color: rgba(19, 133, 19, 0.699);
     clear: both; /* para deixar no final da pagina */
     text-align: center;
+    font-family: fantasy;
 }
+img {
+  width: 100%;
+}
+td {
+  font-family: 
   
+}
+
+article {
+  background-color: rgba(14, 177, 14, 0.699);
+}
