@@ -1,0 +1,55 @@
+header{
+    background-color: rgba(34, 170, 63, 0.699);
+    height: 79px;
+  }
+h1 {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+nav{
+   text-align: center;
+  }
+.menu {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(87, 190, 78, 0.699);
+}
+.menu li{   /*psrs deixar as opcoes do menu uma ao lado da outra */
+    display: inline;
+}
+.menu a {
+    padding: 16px;
+    color: black;
+    display: inline-block;
+  }
+.menu a:hover{ /* para deixar marcando quando o mouse estiver encima da opcao*/
+    background-color: green;
+  }
+
+
+.leftMenu{
+    margin: 0;
+    padding:0;
+  }
+  .leftMenu a{
+    color: black;
+    padding: 16px 8px;
+    display: block;
+  }
+  
+  .leftMenu a:hover{ /* para deixar marcando quando o mouse estiver encima da opcao*/
+    background-color: green;
+  }
+  aside{
+    background-color: rgba(57, 148, 57, 0.699);
+    height: 400px;
+    width: 15%;
+    float:left;
+  }
+.footer {
+    background-color: rgba(19, 133, 19, 0.699);
+    clear: both; /* para deixar no final da pagina */
+    text-align: center;
+}
+  
