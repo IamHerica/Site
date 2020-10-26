@@ -4,11 +4,15 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family:  sans-serif;
+  /*background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.syngenta.com.br%2Freflorestamento&psig=AOvVaw313juOo4JbND8vhwh8q6HY&ust=1603820564281000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjbva3n0uwCFQAAAAAdAAAAABAD);
 } /*Resetando a pagina */
 header{
     background-color: rgba(34, 170, 63, 0.699);
     height: 79px;
   }
+.cabecalho {
+  text-align: center;
+}
 h1 {
   color: black;
   text-align: center;
