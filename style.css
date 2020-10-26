@@ -4,76 +4,96 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family:  sans-serif;
-  /*background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.syngenta.com.br%2Freflorestamento&psig=AOvVaw313juOo4JbND8vhwh8q6HY&ust=1603820564281000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjbva3n0uwCFQAAAAAdAAAAABAD);
+
 } /*Resetando a pagina */
+
+
+
 header{
     background-color: rgba(34, 170, 63, 0.699);
     height: 79px;
   }
+
 .cabecalho {
   text-align: center;
 }
+
 h1 {
   color: black;
   text-align: center;
   font-weight: bold;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 nav{
    text-align: center;
    
-  }
+}
+
 .menu {
   margin: 0;
   padding: 0;
   background-color: rgba(87, 190, 78, 0.699);
 }
+
 .menu li{   /*psrs deixar as opcoes do menu uma ao lado da outra */
     display: inline;
 }
+
 .menu a {
-    padding: 16px;
-    color: black;
-    display: inline-block;
-  }
+  padding: 16px;
+  color: black;
+  display: inline-block;
+}
 .menu a:hover{ /* para deixar marcando quando o mouse estiver encima da opcao*/
-    background-color: green;
-  }
+   background-color: white;
+}
 
-
-.leftMenu{
-    margin: 0;
-    padding:0;
-  }
-  .leftMenu a{
-    color: black;
-    padding: 16px 8px;
-    display: block;
-  }
+.leftMenu a{
+  color: black;
+  padding: 16px 8px;
+  display: block;
+}
   
-  .leftMenu a:hover{ /* para deixar marcando quando o mouse estiver encima da opcao*/
-    background-color: green;
-  }
-  aside{
-    background-color: rgba(57, 148, 57, 0.699);
-    height: 500px;
-    width: 15%;
-    float:left;
-  }
+.leftMenu a:hover{ /* para deixar marcando quando o mouse estiver encima da opcao*/
+  background-color: white;
+}
+
+aside{
+  background-color: rgba(57, 148, 57, 0.699);
+  height: 450px;
+  width: 15%;
+  float:left;
+}
+.asideinutil {
+
+  height: 450px;
+  width: 15%;
+  float:right;
+}
+
 .footer {
-    background-color: rgba(19, 133, 19, 0.699);
-    clear: both; /* para deixar no final da pagina */
-    text-align: center;
-    font-family: fantasy;
+  background-color: rgba(19, 133, 19, 0.699);
+  clear: both; /* para deixar no final da pagina */
+  text-align: center;
+  font-family: fantasy;
 }
-img {
-  width: 100%;
-}
-td {
-  font-family: 
-  
+
+img { /* centralizando a imagem*/
+  margin: 0 auto;
+  width: 350px;
+  display: block;
 }
 
 article {
   background-color: rgba(14, 177, 14, 0.699);
+  height: 490px;
+}
+
+.escritofoto {
+  text-align: center;
+}
+
+.team-wrapper {
+  margin-left: 23.5%;
 }
